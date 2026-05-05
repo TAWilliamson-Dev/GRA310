@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farm To Table CSA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="images/GRA_310_Farm_to_Table_Logo_Color.svg" alt="Farm To Table" class="logo"/></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><b>Contact</b></a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class = "container">
+      <div class="row">
+        <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+        </div>
+        <div class="col-md-6 text-center">
+          <h1>
+            Contact Us<br>
+          </h1>
+          <p>
+            <h2>By Mail</h2><br>
+            Farm to Table CSA<br>
+            5987 Baldwin-Carre Road<br>
+            Elberta, Alabama 36530<br><Br>
+
+            Call: (251) 222-2222<br>
+            Email: contact@farmtotablecsa.ftt<br>                
+          </p>            
+        </div>
+        <div class="col-md-6">
+          <h2>Our Hours<br></h2>
+          <p>
+            Monday - Friday: 8 A.M. to 6 P.M.<br>
+            Saturday - Sunday: 9 A.M. to 2 P.M.<br>
+          </p>
+
+          <h2>Find us on social media.</h2>
+          <p>
+            Instagram: @farm2tablecsa<br>
+            Facebook: @farm2tablecsa<br>
+            YouTube: @farm2tablecsa<br>
+            Web: farmtotablecsa.ftt<br>            
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+<footer class=""footer mt-auto py-3 fixed-bottom">
+    <div class="container text-center">
+        <h1>Farm To Table</h1>
+        <p>5987 Baldwin-Carre Road<br>Elberta, Alabama 36530 <br> 251-222-2222</p>
+        <a href="@farm2tablecsa_fb"><i class="bi bi-facebook"></i>Facebook</a>
+        <a href="@farm2tablecsa_in"><i class="bi bi-instagram"></i>Instagram</a>
+        <a href="@farm2tablecsa_yt"><i class="bi bi-youtube"></i>Youtube</a>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+</body>
+</html>
